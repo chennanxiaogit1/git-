@@ -13,3 +13,6 @@ git版本回退
 （2）暂缓区
 1.git add 就是将文件添加到GIT仓库的暂缓区中
 2.git commit 就是将暂缓区中的文件 提交到master分支上
+（3）撤销修改
+1.文件只是在工作区的修改  git checkout -- file
+2.文件添加到了暂缓区 git reset HEAD <file>将其退回到工作区修改
