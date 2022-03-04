@@ -21,4 +21,8 @@ git版本回退
 2.git checkout -- <file>将版本库中的文件替换工作区中的文件(误删的情况下)
 
 分支管理:
-git branch <name>创建分支   git switch -c <name>切换分支和创建  git merge <name>将分支合并到当前的分支上 
+分支的基本命令:
+git branch -b<name>删除分支   git switch -c <name>切换分支和创建  git merge <name>将分支合并到当前的分支上 
+
+分支冲突:
+当分支冲突的时候将其内容手动编辑为我们自己想要的内容再add commit 
