@@ -26,3 +26,8 @@ git branch -b<name>删除分支   git switch -c <name>切换分支和创建  git
 
 分支冲突:
 当分支冲突的时候将其内容手动编辑为我们自己想要的内容再add commit 
+bug分支：
+1.当手头的工作还没有完成  先git stash下 然后创建bug分支 等bug修复之后 git stash pop
+2.在master分支上修复的bug，想要合并到当前dev分支，可以用git cherry-pick <commit>命令，把bug提交的修改“复制”到当前分支，避免重复劳动。
+feature分支：
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
