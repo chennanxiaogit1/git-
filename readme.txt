@@ -7,5 +7,9 @@ git的初始化
 2.使用命令git commit -m <message>，完成。
 
 git版本回退
+（1）时光穿梭
 1.HEAD指向的是当前的版本,使用git reset --hard commit_id 可以实现版本切换
 2.git reflog可以命令历史  找到对应的commit_id
+（2）暂缓区
+1.git add 就是将文件添加到GIT仓库的暂缓区中
+2.git commit 就是将暂缓区中的文件 提交到master分支上
